@@ -1,0 +1,9 @@
+.acortador {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+}
+
+.manoCursor{
+    cursor: pointer;
+}
