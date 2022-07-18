@@ -10,8 +10,7 @@ const Home = () => {
 
     // trae todos los productos paginados
     useEffect(() => {
-        // let pageNo = Math.floor((Math.random() * 4) + 1)
-        let pageNo = 1
+        let pageNo = Math.floor((Math.random() * 4) + 1)
         console.log(pageNo);
         const loadProductos = async () => {
             const listProductos = await getProducts(pageNo)
